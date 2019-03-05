@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+  <link rel="stylesheet" href="http://at.alicdn.com/t/font_928839_x3vezib2cff.css">
+  <!-- <link rel="stylesheet" href="./static/css/public.css"> -->
+  <title>ordering-system</title>
+  <script src="./static/js/jquery.min.js"></script>
+  <script src="http://at.alicdn.com/t/font_928839_g6jrblvc5ep.js"></script>
+  <script src="https://cdn.bootcss.com/babel-polyfill/6.23.0/polyfill.min.js"></script>
+  <style>
+    html {
+      font-size: 100px;
+      margin: 0;
+      padding: 0;
+      background: #F6F6F6;
+      height: 100%;
+    }
+    body{
+      height: 100%;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    li {
+      list-style: none;
+    }
+
+    a {
+      text-decoration: none;
+      color: #000;
+    }
+    #main{
+      height: 100%;
+    }
+    #app{height: 100%;}
+  </style>
+</head>
+
+<body>
+  <div id="main">
+    <div id="app">
+    </div>
+  </div>
+  <!-- built files will be auto injected -->
+  <script>
+    var designW = 750,
+      winW = document.documentElement.clientWidth,
+      ratio = winW / designW,
+      oMain = document.getElementById("main");
+    if (winW > designW) {
+      oMain.style.width = designW + "px";
+      oMain.style.margin = '0 auto';
+    } else {
+      document.documentElement.style.fontSize = ratio * 100 + "px";
+
+    }
+
+  </script>
+</body>
+
+</html>

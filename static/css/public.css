@@ -1,0 +1,140 @@
+/* 先定义公共样式， 比如字体大小  颜色等   以及布局的常用样式 */
+
+.fs12 {
+    font-size: .12rem
+}
+
+.fs28 {
+    font-size: .28rem
+}
+
+.fs32 {
+    font-size: .32rem
+}
+.fs36{
+    font-size: .36rem;
+}
+.fs24 {
+    font-size: .24rem
+}
+
+.redtext {
+    color: #c90000;
+}
+
+.redbg {
+    background: #c90000;
+}
+
+.btr {
+    border: 1px solid #c90000 !important;
+    color: #c90000;
+}
+
+.whitetext {
+    color: #fff;
+}
+
+.whitebg {
+    background: #fff
+}
+.gray{
+    color: #999;
+}
+
+.df {
+    display: flex;
+}
+
+.fdc {
+    flex-direction: column;
+}
+
+.fw {
+    flex-wrap: wrap;
+}
+
+.f1 {
+    flex: 1
+}
+
+.jc {
+    justify-content: center
+}
+
+.ac {
+    align-items: center
+}
+
+.afe {
+    align-items: flex-end
+}
+
+.jsb {
+    justify-content: space-between
+}
+
+.jfe {
+    justify-content: flex-end
+}
+
+.jfa {
+    justify-content: flex-start;
+}
+
+.pr {
+    position: relative;
+}
+
+.pa {
+    position: absolute;
+}
+
+.icon {
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+}
+
+input {
+    border: none;
+    outline: none;
+}
+
+body {
+    font-size: 0.28rem;
+}
+
+.redBtn {
+    width: 6.9rem;
+    height: 0.8rem;
+    background: #c90000;
+    border-radius: 0.04rem;
+    color: #fff;
+    margin-top: 1.4rem;
+}
+
+.ellipsis2 {
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    /*! autoprefixer: off */
+    -webkit-box-orient: vertical;
+    /*！ autoprefixer: on */
+}
+.ellipsis1{
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    /*! autoprefixer: off */
+    -webkit-box-orient: vertical;
+    /*！ autoprefixer: on */
+}
+@font-face{
+    font-family: 'myFont';
+    
+}

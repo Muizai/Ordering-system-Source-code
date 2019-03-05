@@ -1,0 +1,31 @@
+// 颜色值
+$red:#c90000;
+$shadow:rgba(0,0,0,0.3);
+
+// 字体大小
+$fs22:0.22rem;
+$fs24:0.24rem;
+$fs28:0.28rem;
+$fs30:0.3rem;
+$fs32:0.32rem;
+$fs34:0.34rem;
+$fs36:0.36rem;
+
+// 边框阴影
+@mixin box-shadow {
+    box-shadow: 0 0 10px 2px #eaeaea;
+}
+
+// 下边框  
+// @include border-bottom;
+@mixin border-bottom{
+    border-bottom: 1px solid #eaeaea;
+}
+
+
+// 宽高
+// @include w-h();
+@mixin w-h($w,$h){
+    width: $w;
+    height: $h;
+}
